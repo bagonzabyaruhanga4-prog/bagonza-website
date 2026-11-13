@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bagonza Cleaning Services — professional sofa, mattress, carpet, chair and curtain cleaning in Uganda.">
+  <title>Bagonza Cleaning Services | Freshness You Can Feel</title>
+  <style>
+  :root{--navy:#102a43;--blue:#087eae;--teal:#10b7a4;--pale:#eaf8f8;--ink:#243b53;--muted:#627d98;--white:#fff;--gold:#ffc857}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+    a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#ffffffed;backdrop-filter:blur(10px);box-shadow:0 2px 16px #102a4310}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:15px 0;gap:20px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:800;color:var(--navy);font-size:1.05rem}
+    .logo{width:43px;height:43px;border-radius:14px;background:linear-gradient(135deg,var(--blue),var(--teal));display:grid;place-items:center;color:white;font-size:1.35rem}
+    nav{display:flex;align-items:center;gap:24px;font-size:.94rem;font-weight:700}nav a:hover{color:var(--teal)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 21px;border-radius:999px;background:var(--teal);color:white;font-weight:800;border:0;cursor:pointer;transition:.2s}
+    .btn:hover{transform:translateY(-2px);filter:brightness(.96)}.btn.secondary{background:white;color:var(--navy);border:1px solid #d7e7ee}
+    .menu{display:none;background:none;border:0;font-size:1.6rem;color:var(--navy)}
+    .hero{background:radial-gradient(circle at 85% 20%,#b9f1e9 0,transparent 28%),linear-gradient(120deg,#effbfc,#f4f9ff);padding:76px 0 68px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:45px}
+    .eyebrow{display:inline-block;padding:7px 13px;border-radius:30px;background:#d8f7f1;color:#087c71;font-size:.8rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    h1{font-size:clamp(2.5rem,5vw,4.6rem);line-height:1.06;letter-spacing:-.04em;color:var(--navy);margin:18px 0}
+    h1 span{color:var(--blue)}.hero p{font-size:1.12rem;color:var(--muted);max-width:570px;margin-bottom:28px}
+    .hero-actions{display:flex;gap:13px;flex-wrap:wrap}.trust{display:flex;gap:22px;flex-wrap:wrap;margin-top:30px;color:var(--muted);font-size:.9rem;font-weight:700}
+    .visual{min-height:390px;border-radius:34px;background:linear-gradient(145deg,#0c8eb3,#16b9a5);position:relative;display:grid;place-items:center;box-shadow:0 25px 55px #087eae30}
+    .visual:before{content:"";position:absolute;width:255px;height:255px;border-radius:50%;background:#ffffff24;top:34px;right:25px}
+    .clean-card{position:relative;background:white;border-radius:25px;padding:26px;width:min(310px,80%);box-shadow:0 20px 40px #073b5540;transform:rotate(-4deg)}
+    .clean-icon{font-size:4rem;text-align:center;margin-bottom:5px}.clean-card h3{text-align:center;color:var(--navy);margin:5px 0}.clean-card p{text-align:center;color:var(--muted);font-size:.9rem;margin:0}
+    .spark{position:absolute;color:white;font-size:2rem}.s1{top:40px;left:45px}.s2{bottom:45px;right:42px;font-size:2.8rem}
+    section{padding:76px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 38px}.section-head .eyebrow{margin-bottom:10px}
+    h2{font-size:clamp(2rem,3vw,2.8rem);line-height:1.15;color:var(--navy);margin:8px 0 12px;letter-spacing:-.03em}
+    .section-head p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:19px}
+    .service{border:1px solid #e3edf2;border-radius:20px;padding:25px;background:white;transition:.2s}
+    .service:hover{transform:translateY(-5px);box-shadow:0 16px 35px #102a4310;border-color:#bdebe5}
+    .service .ico{width:55px;height:55px;border-radius:17px;background:var(--pale);display:grid;place-items:center;font-size:1.7rem}
+    .service h3{color:var(--navy);margin:16px 0 7px}.service p{color:var(--muted);margin:0;font-size:.95rem}
+    .about{background:#f4fafb}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+    .about-panel{background:var(--navy);color:white;border-radius:28px;padding:34px;position:relative;overflow:hidden}
+    .about-panel:after{content:"✦";position:absolute;right:20px;bottom:-45px;font-size:12rem;color:#ffffff0d}
+    .about-panel h3{font-size:1.7rem;margin:0 0 12px}.about-panel p{color:#d6e6ef}
+    .checks{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:22px}.check{font-weight:700;font-size:.92rem}.check:before{content:"✓";color:var(--teal);font-weight:900;margin-right:9px}
+    .about-copy p{color:var(--muted)}.about-copy .btn{margin-top:12px}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.step{text-align:center;padding:25px}.num{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:white;font-weight:900;margin:0 auto 15px}.step h3{color:var(--navy);margin:8px}.step p{color:var(--muted);font-size:.94rem}
+    .cta{padding:55px 0;background:linear-gradient(120deg,var(--blue),var(--teal));color:white;text-align:center}.cta h2{color:white}.cta p{color:#e5ffff;margin:0 auto 23px;max-width:600px}.cta .btn{background:white;color:var(--navy)}
+    .contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:35px}.contact-info{background:#f1f9fa;padding:30px;border-radius:24px}.contact-info h3{color:var(--navy);margin-top:0}.contact-line{margin:18px 0;color:var(--muted)}.contact-line strong{display:block;color:var(--navy)}
+    form{display:grid;gap:13px}input,select,textarea{width:100%;padding:14px 15px;border:1px solid #d6e4eb;border-radius:12px;font:inherit;color:var(--ink);background:white}textarea{min-height:120px;resize:vertical}input:focus,select:focus,textarea:focus{outline:2px solid #9be7dc;border-color:var(--teal)}
+    footer{background:#0b2033;color:#d3e2eb;padding:28px 0;text-align:center;font-size:.9rem}footer strong{color:white}
+    .whatsapp{position:fixed;right:20px;bottom:20px;z-index:20;background:#20bd65;color:white;border-radius:50px;padding:13px 18px;font-weight:800;box-shadow:0 8px 24px #0002}
+    @media(max-width:800px){.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.visual{min-height:320px}.services{grid-template-columns:repeat(2,1fr)}nav{display:none;position:absolute;top:72px;left:0;right:0;background:white;padding:20px 5%;box-shadow:0 12px 20px #102a4310;flex-direction:column;align-items:flex-start}.nav.open nav{display:flex}.menu{display:block}.nav>.btn{display:none}}
+    @media(max-width:540px){.hero{padding:55px 0}.services,.steps{grid-template-columns:1fr}.checks{grid-template-columns:1fr}.visual{min-height:280px}.clean-card{padding:20px}.whatsapp{right:12px;bottom:12px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container nav" id="navbar">
+    <a class="brand" href="#home"><span class="logo">✦</span><span>BAGONZA<br>CLEANING SERVICES</span></a>
+    <nav>
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About us</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="https://wa.me/+256043396407" target="_blank" rel="noopener">Book a cleaning</a>
+    <button class="menu" aria-label="Toggle navigation" onclick="document.getElementById('navbar').classList.toggle('open')">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">A cleaner space. A fresher feeling.</span>
+        <h1>Let us make your space <span>shine.</span></h1>
+        <p>Professional cleaning for the things you love. We help refresh your sofas, mattresses, carpets, chairs and curtains so your home feels clean, comfortable and welcoming.</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://wa.me/256743396407?text=Hello%20Bagonza%20Cleaning%20Services%2C%20I%20would%20like%20to%20book%20a%20cleaning." target="_blank" rel="noopener">WhatsApp us</a>
+          <a class="btn secondary" href="#services">Explore services</a>
+        </div>
+        <div class="trust"><span>✓ Careful cleaning</span><span>✓ Friendly service</span><span>✓ Fresh results</span></div>
+      </div>
+      <div class="visual" aria-label="Cleaning and freshness illustration">
+        <span class="spark s1">✧</span><span class="spark s2">✦</span>
+        <div class="clean-card"><div class="clean-icon">🫧🛋️</div><h3>Freshness you can feel</h3><p>Giving your furniture and fabrics a fresh new feel.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">What we clean</span><h2>Our cleaning services</h2><p>From everyday furniture to the fabrics that make your house feel like home, we help bring back that clean, fresh feeling.</p></div>
+      <div class="services">
+        <article class="service"><div class="ico">🛋️</div><h3>Sofa cleaning</h3><p>Refresh single-seater and multi-seater sofas by removing dirt and everyday build-up.</p></article>
+        <article class="service"><div class="ico">🛏️</div><h3>Mattress cleaning</h3><p>Give your mattress a careful clean for a fresher and more comfortable sleeping space.</p></article>
+        <article class="service"><div class="ico">🪑</div><h3>Chair cleaning</h3><p>Cleaning for household and office chairs to help them look and feel refreshed.</p></article>
+        <article class="service"><div class="ico">🧶</div><h3>Carpet cleaning</h3><p>Careful cleaning for small, medium and large carpets.</p></article>
+        <article class="service"><div class="ico">🪟</div><h3>Curtain washing</h3><p>We clean light and heavy curtains to help brighten up your rooms.</p></article>
+        <article class="service"><div class="ico">✨</div><h3>Custom cleaning</h3><p>Have another item that needs attention? Contact us and tell us what you need cleaned.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-panel"><h3>Clean surroundings. Peace of mind.</h3><p>We believe a clean home starts with attention to the details. We handle your furniture and fabrics with care and aim to leave your space feeling more comfortable and refreshed.</p><div class="checks"><span class="check">Sofa care</span><span class="check">Curtain washing</span><span class="check">Carpet care</span><span class="check">Mattress care</span></div></div>
+      <div class="about-copy"><span class="eyebrow">About Bagonza</span><h2>We care about the freshness of your space.</h2><p>Bagonza Cleaning Services provides cleaning for homes, offices and personal furniture. Whether your sofa needs a refresh or your curtains need washing, get in touch and we will discuss the service you need.</p><p>Prices are shared according to the item, its condition and the location.</p><a class="btn" href="#contact">Request a quote</a></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">Simple booking</span><h2>How it works</h2><p>Getting started is easy. Contact us and we will guide you through the next steps.</p></div>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><h3>Contact us</h3><p>Call or WhatsApp and tell us which items you want cleaned.</p></div>
+        <div class="step"><div class="num">2</div><h3>Get a quote</h3><p>Share the item details and your location so we can discuss the price.</p></div>
+        <div class="step"><div class="num">3</div><h3>Enjoy the freshness</h3><p>Agree on the cleaning arrangement and get your items refreshed.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container"><h2>Ready for a fresher home?</h2><p>Talk to Bagonza Cleaning Services today and request a quote for your sofa, mattress, carpet, chairs or curtains.</p><a class="btn" href="https://wa.me/256743396407" target="_blank" rel="noopener">Chat with us on WhatsApp</a></div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">Get in touch</span><h2>Let's talk about your cleaning needs</h2><p>Send us a message and we will get back to you.</p></div>
+      <div class="contact-grid">
+        <div class="contact-info"><h3>Bagonza Cleaning Services</h3><div class="contact-line"><strong>Call or WhatsApp</strong><a href="tel:+256743396407">0743 396 407</a></div><div class="contact-line"><strong>WhatsApp</strong><a href="https://wa.me/256743396407" target="_blank" rel="noopener">Chat with us directly</a></div><div class="contact-line"><strong>Services</strong>Sofas · Mattresses · Chairs · Carpets · Curtains</div><p>We look forward to helping you enjoy a cleaner, fresher space.</p></div>
+        <form id="quoteForm">
+          <input id="customerName" type="text" placeholder="Your name" required>
+          <input id="customerPhone" type="tel" placeholder="Your phone number">
+          <select id="service" required><option value="">Select a service</option><option>Sofa cleaning</option><option>Mattress cleaning</option><option>Chair cleaning</option><option>Carpet cleaning</option><option>Curtain washing</option><option>Other cleaning</option></select>
+          <textarea id="message" placeholder="Tell us what you need cleaned and your location..." required></textarea>
+          <button class="btn" type="submit">Send enquiry on WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><div class="container">© <span id="year"></span> <strong>Bagonza Cleaning Services</strong>. All rights reserved.</div></footer>
+<a class="whatsapp" href="https://wa.me/256743396407" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">☏ WhatsApp</a>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('quoteForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    const name = document.getElementById('customerName').value.trim();
+    const phone = document.getElementById('customerPhone').value.trim();
+    const service = document.getElementById('service').value;
+    const message = document.getElementById('message').value.trim();
+    const text = `Hello Bagonza Cleaning Services. My name is ${name}. ${phone ? 'My phone number is '+phone+'. ' : ''}I am interested in: ${service}. Details/location: ${message}`;
+    window.open('https://wa.me/256743396407?text=' + encodeURIComponent(text), '_blank');
+  });
+</script>
+</body>
+</html>
